@@ -5,8 +5,8 @@ export const useStyles = createUseStyles({
     display: 'grid',
     gridTemplateRows: 'repeat(5, 1fr)',
     gridTemplateColumns: 'repeat(8, 1fr)',
-    width: '70vw',
-    height: '50vh',
+    width: '100vmin',
+    height: '70vmin',
     outline: '2px solid black',
   },
   cell: {
@@ -14,7 +14,7 @@ export const useStyles = createUseStyles({
     cursor: 'pointer',
     '&:hover': {
         border: 'none',
-        transform: 'scale(1.1)'
+        transform: 'scale(1.0.5)'
     }
   }
 })
